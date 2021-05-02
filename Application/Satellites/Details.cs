@@ -7,6 +7,9 @@ using Persistence;
 
 namespace Application.Satellites
 {
+    /// <summary>
+    /// CQRS Handler for Queries - Get Satellite info by Name
+    /// </summary>
     public class Details
     {
         public class Query : IRequest<Satellite>
@@ -25,7 +28,7 @@ namespace Application.Satellites
 
             public async Task<Satellite> Handle(Query request, CancellationToken cancellationToken)
             {
-                return await context.Satellites.FirstOrDefaultAsync(x => x.Name == request.Name);
+                return await context.Satellites.FirstOrDefaultAsync(x => x.Name == request.Name, cancellationToken: cancellationToken);
             }
         }
     }

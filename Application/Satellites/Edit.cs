@@ -11,6 +11,9 @@ using Persistence;
 
 namespace Application.Satellites
 {
+    /// <summary>
+    /// CQRS Handler for Command - Update, calculate ship position and decode message
+    /// </summary>
     public class Edit
     {
         public class Command : IRequest<Result<ShipResponse>>
@@ -39,13 +42,15 @@ namespace Application.Satellites
             {
                 List<string> messageItems = new List<string>();
 
+                //Iterate for each satellite in order to update data and process the message to decode
                 foreach (var satellite in request.Satellites)
                 {
-                    var satelliteFromDb = await context.Satellites.Where(x => x.Name == satellite.Name).FirstOrDefaultAsync();
+                    var satelliteFromDb = await context.Satellites.Where(x => x.Name == satellite.Name).FirstOrDefaultAsync(cancellationToken: cancellationToken);
 
                     if (satelliteFromDb == null) return Result<ShipResponse>.Failure(string.Format("Failed to find a satellite named '{0}'", satellite.Name));
 
                     satelliteFromDb.Distance = satellite.Distance;
+                    satelliteFromDb.LastUpdatedDate = DateTime.Now;
 
                     if (satellite.Message != null && satellite.Message.Count > 0)
                     {
@@ -72,17 +77,20 @@ namespace Application.Satellites
                     }
                 }
 
-                await context.SaveChangesAsync();
+                messageItems.RemoveAll(x => string.IsNullOrWhiteSpace(x));
 
-                var satellites = await context.Satellites.ToListAsync();
+                //Save changes
+                await context.SaveChangesAsync(cancellationToken);
 
+                var satellites = await context.Satellites.ToListAsync(cancellationToken: cancellationToken);
+
+                //Process the response
                 var shipResponse = new ShipResponse();
 
+                //Calculate Ship Position by Trilateration
                 double[] position = Trilateration.Compute(new Point(satellites[0].Y, satellites[0].X, satellites[0].Distance),
                                                           new Point(satellites[1].Y, satellites[1].X, satellites[1].Distance),
                                                           new Point(satellites[2].Y, satellites[2].X, satellites[2].Distance));
-
-                messageItems.RemoveAll(x => string.IsNullOrWhiteSpace(x));
 
                 if (position == null || messageItems.Count == 0)
                     return Result<ShipResponse>.Success(null);

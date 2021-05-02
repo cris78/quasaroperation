@@ -961,11 +961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj",
+      "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\Cristian Arenas\\.nuget\\packages\\",
-      "outputPath": "C:\\QuasarOperationProject\\Persistence\\obj\\",
+      "outputPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -987,8 +987,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\QuasarOperationProject\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\QuasarOperationProject\\Domain\\Domain.csproj"
+            "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj"
             }
           }
         }

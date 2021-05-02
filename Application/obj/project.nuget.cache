@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mBOOpula+ZY5Ecq5NBomcc0fH+Ej1y7LznKrGPZ3znq39olPDgCe9Mf2isow2adqeUG72yhAkKXBSkNmL6EX1g==",
+  "dgSpecHash": "1jvKd7qX9afKb3DditVR5jgRWJCq6MAyrA1ccXpBasNDpBxvyISz9t/e0bOgwu/i9dAhtq0WrfV8ASgCdVaMkg==",
   "success": true,
-  "projectFilePath": "C:\\QuasarOperationProject\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cristian Arenas\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
     "C:\\Users\\Cristian Arenas\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.1.0\\fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",

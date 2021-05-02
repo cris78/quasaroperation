@@ -1123,11 +1123,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\QuasarOperationProject\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\QuasarOperationProject\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Cristian Arenas\\.nuget\\packages\\",
-      "outputPath": "C:\\QuasarOperationProject\\Application\\obj\\",
+      "outputPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1149,11 +1149,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\QuasarOperationProject\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\QuasarOperationProject\\Domain\\Domain.csproj"
+            "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj"
             },
-            "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -1188,6 +1188,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\QuasarOperationProject\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\QuasarOperationProject\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Cristian Arenas\\.nuget\\packages\\",
-      "outputPath": "C:\\QuasarOperationProject\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

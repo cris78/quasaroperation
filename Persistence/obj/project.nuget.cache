@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XkeTuITAb+/dn2Hmo+HFx9sLb6PyqXDSeBIlSVBPF4yJF0ZvhPiXhGA+mHiBIJkl7WkK+jEHQutuaA4XpnMnlw==",
+  "dgSpecHash": "AcQm7aYnxo8XmAaUVCMzNxlnd++d86pkDNearTVghAZLjvsQRUsR4oly7Jt4FhvISQehQV4KCgGx2xpcPrSgOA==",
   "success": true,
-  "projectFilePath": "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cristian Arenas\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.5\\microsoft.data.sqlite.core.5.0.5.nupkg.sha512",
     "C:\\Users\\Cristian Arenas\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

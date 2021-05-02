@@ -539,7 +539,10 @@
         },
         "runtime": {
           "bin/placeholder/Application.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Domain/1.0.0": {
         "type": "project",
@@ -1459,11 +1462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\QuasarOperationProject\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\QuasarOperationProject\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Cristian Arenas\\.nuget\\packages\\",
-      "outputPath": "C:\\QuasarOperationProject\\API\\obj\\",
+      "outputPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1485,8 +1488,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\QuasarOperationProject\\Application\\Application.csproj": {
-              "projectPath": "C:\\QuasarOperationProject\\Application\\Application.csproj"
+            "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj"
             }
           }
         }

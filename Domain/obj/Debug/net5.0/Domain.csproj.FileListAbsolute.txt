@@ -10,3 +10,14 @@ C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInput
 C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.dll
 C:\QuasarOperationProject\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.pdb
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\Cristian Arenas\Documents\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.pdb

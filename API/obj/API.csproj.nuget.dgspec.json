@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\QuasarOperationProject\\API\\API.csproj": {}
+    "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\QuasarOperationProject\\API\\API.csproj": {
+    "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuasarOperationProject\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\QuasarOperationProject\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Cristian Arenas\\.nuget\\packages\\",
-        "outputPath": "C:\\QuasarOperationProject\\API\\obj\\",
+        "outputPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\QuasarOperationProject\\Application\\Application.csproj": {
-                "projectPath": "C:\\QuasarOperationProject\\Application\\Application.csproj"
+              "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\QuasarOperationProject\\Application\\Application.csproj": {
+    "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuasarOperationProject\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\QuasarOperationProject\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Cristian Arenas\\.nuget\\packages\\",
-        "outputPath": "C:\\QuasarOperationProject\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -109,11 +109,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\QuasarOperationProject\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\QuasarOperationProject\\Domain\\Domain.csproj"
+              "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj"
               },
-              "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -148,6 +148,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -156,14 +159,14 @@
         }
       }
     },
-    "C:\\QuasarOperationProject\\Domain\\Domain.csproj": {
+    "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuasarOperationProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\QuasarOperationProject\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Cristian Arenas\\.nuget\\packages\\",
-        "outputPath": "C:\\QuasarOperationProject\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -215,14 +218,14 @@
         }
       }
     },
-    "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\QuasarOperationProject\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Cristian Arenas\\.nuget\\packages\\",
-        "outputPath": "C:\\QuasarOperationProject\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -244,8 +247,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\QuasarOperationProject\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\QuasarOperationProject\\Domain\\Domain.csproj"
+              "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Cristian Arenas\\Documents\\QuasarOperationProject\\Domain\\Domain.csproj"
               }
             }
           }
