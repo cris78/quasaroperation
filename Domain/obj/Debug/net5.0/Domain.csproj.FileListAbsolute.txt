@@ -1,0 +1,12 @@
+C:\QuasarOperationProject\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\QuasarOperationProject\Domain\bin\Debug\net5.0\Domain.dll
+C:\QuasarOperationProject\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\QuasarOperationProject\Domain\bin\Debug\net5.0\Domain.pdb
+C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.dll
+C:\QuasarOperationProject\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\QuasarOperationProject\Domain\obj\Debug\net5.0\Domain.pdb
