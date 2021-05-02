@@ -5,7 +5,7 @@ Desarrollo de prueba de concepto.
 
 Tecnologías y lenguajes de desarrollo:
 
-.NET Core, C# y SQLite
+.NET Core, C# y SQLite, Docker
 
 Conceptos, patrones de arquitectura y diseño trabajados:
 
