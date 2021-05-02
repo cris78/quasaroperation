@@ -1,5 +1,5 @@
 # quasaroperation
-Quasar Operation - PoC
+Quasar Operation - PoC - Cristian Daniel Arenas
 
 Desarrollo de prueba de concepto.
 
